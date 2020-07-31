@@ -28,5 +28,4 @@ sed -i "s|\" }, { \"|\"},{\"|g" ./tmp/api/ct.json
 
 mkdir ./output -p
 cp -rf ./tmp/api/ct.json ./output/ct.json
-echo "ssl.cyfan.top" > ./output/CNAME
 rm -rf ./tmp
