@@ -16,7 +16,6 @@ jobs:
 
       - name: Install and Build 🔧 
         run: |
-          npm run build
           chmod +x ./checker.sh
           ./checker.sh xhemj.js.org mingyan.js.org xhemj.eu.org www.xhemj.eu.org
           cp -rf ./output/ct.json ../public/ct.json
